@@ -1,0 +1,171 @@
+<resources>
+
+    <string name="loading">Loading…</string>
+
+    <!-- Label. -->
+    <string name="app_name">Radar de Ofertas</string>
+    <string name="MainActivity"> </string>
+    <string name="MenuActivity">Feed</string>
+    <string name="PerfilActivity">Perfil do Usuario</string>
+    <string name="PerfilEditActivity">Editar Perfil do Usuario </string>
+    <string name="MapsActivity">Maps</string>
+    <string name="CategoriaInsertActivity">Adicionar Categoria</string>
+    <string name="CategoriaViewActivity">Categoria</string>
+    <string name="CategoriaEditActivity">Editar Categoria</string>
+    <string name="LoginActivity">Usuarios</string>
+
+
+    <!-- ImageView logo. -->
+
+    <!-- activity_main. -->
+    <string name="action_sign_in">ENTRAR COM E-MAIL E SENHA</string>
+    <string name="action_google">ENTRAR COM O GOOGLE</string>
+    <string name="action_facebook">ENTRAR COM O FACEBOOK</string>
+    <string name="action_Sair">SAIR</string>
+    <string name="desc_firebase_lockup">Firebase logo and name</string>
+    <string name="signed_in">Signed In</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="sign_in">Sign In</string>
+    <string name="firebaseui_status_fmt">Firebase User: %s</string>
+    <string name="firebaseui_title_text">FirebaseUI Auth</string>
+
+
+    <!-- activity_sign_in. -->
+    <string name="no_text"> </string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="text_email_sign_in_button">ENTRAR</string>
+    <string name="text_recuperar_senha_button">ESQUECI MINHA SENHA</string>
+    <string name="text_cadastrar_button">CADASTRAR</string>
+
+    <!-- activity_menu. -->
+    <string name="navigation_drawer_close">Fechar navigation drawer</string>
+    <string name="navigation_drawer_open">Abrir navigation drawer</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="text_logOut_button">SAIR</string>
+    <string name="emailpassword_status_fmt">Email User: %1$s (verified: %2$b)</string>
+    <string name="firebase_status_fmt">Firebase User: %s</string>
+    <!-- Menu Menu. -->
+    <string name="open_drawer">Abrir</string>
+    <string name="close_drawer">Fechar</string>
+    <string name="menu_login">Usuarios</string>
+    <string name="menu_registrar">Registrar</string>
+    <string name="menu_account">Perfil</string>
+    <string name="menu_categoria">Categoria</string>
+    <string name="menu_produtos">Produto</string>
+    <string name="menu_oferta">Oferta</string>
+    <string name="menu_estabelecimento">Estabelecimento</string>
+    <string name="menu_sobre">Sobre</string>
+    <string name="menu_feed">Feed</string>
+    <string name="menu_logout">Sair</string>
+    <string name="menu_novalistacompras">Lista de Compras</string>
+    <string name="menu_share">Compartilhar</string>
+    <string name="menu_edit">Editar</string>
+    <string name="closeApp">Fechar</string>
+    <string name="share_message">O Radar Ofertas é incrível!</string>
+    <string name="share_using">Compartilhar usando</string>
+    <string name="app_logo">App logo</string>
+    <string name="fatecip" translatable="false">FATEC IPIRANGA</string>
+    <string name="FATEC" translatable="false">FATEC</string>
+    <string name="version">Versão: 1.0</string>
+    <string name="about_address">Endereco:</string>
+    <string name="about_adress2">Rua Frei João, 59</string>
+    <string name="about_address3">Vila Nair, São Paulo - SP - Brazil</string>
+    <string name="about_view_map">View Map</string>
+    <string name="about_phone">Fone: +55 11 5061–0298</string>
+    <string name="about_call">Call</string>
+    <string name="developed_by_">Developed by Equipe ADS</string>
+    <string name="developer_email" translatable="false">figestaotccads.2019@gmail.com</string>
+
+    <!-- Categoria  -->
+    <string name="edit_title">Editar</string>
+    <string name="insert_title">Registrar</string>
+    <string name="categoria_nome">Categoria Nome</string>
+    <string name="categoria_descricao">Categoria Descricao</string>
+    <string name="categoria_tipo">Tipo da Categoria</string>
+    <string name="categoria_image">Imagem da Categoria</string>
+    <string name="delete_button">Botão de delete</string>
+    <string name="edit_button">Botão de editar</string>
+    <string name="image_in_categoria_list">Imagem na lista de categoria</string>
+    <string name="categoria_insert_name_hint">Enter categoria nome</string>
+    <string name="categoria_insert_description_hint">Enter categoria description</string>
+    <string name="categoria_insert_imageurl_hint">Enter categoria image URL</string>
+    <string name="edit_categoria_name_hint">Categoria nome</string>
+    <string name="edit_categoria_description_hint">Categoria descricao</string>
+    <string name="edit_categoria_imageurl_hint">Categoria image URL</string>
+    <string name="error_categoria_name_empty">Categoria name can\'t be empty</string>
+    <string name="categoria_view_title">Categorias</string>
+    <string name="categoria_edit_title">Product edit</string>
+    <string name="confirm_delete">Confirmar remoção</string>
+    <string name="delete_message">Tem certeza que quer remover?</string>
+    <string name="yes">Sim</string>
+    <string name="add">Adicionar</string>
+    <string name="no">Não</string>
+    <string name="categoria_deleted">Categoria removida</string>
+
+    <string name="account">Conta</string>
+    <string name="voltar">Voltar</string>
+    <string name="sair">Sair</string>
+
+    <!-- ImageView logo. -->
+    <string name="TODO">TODO</string>
+
+    <!-- Menu Perfil. -->
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Editar</string>
+
+    <!-- activity login  -->
+    <string name="search_usuario_nome_hint">Informe nome do usuario para pesquisar</string>
+    <string name="login_image">Imagem do Login</string>
+    <string name="login_nome">Nome Usuario</string>
+    <string name="login_email">E-mail Usuario</string>
+    <string name="login_title">Usuarios</string>
+    <string name="search_title">Procurar Usuarios</string>
+
+
+    <!-- activity_perfil. -->
+    <string name="perfil_image">Imagem do Perfil</string>
+    <string name="perfil_endereco">Endereco</string>
+    <string name="perfil_cidade">Cidade</string>
+    <string name="perfil_estado">Estado</string>
+    <string name="perfil_cep">CEP</string>
+    <string name="perfil_localizacao">Localizacao</string>
+    <string name="perfil_telefone">Telefone</string>
+
+    <string name="firebase_uid">ID Usuário: %s</string>
+    <string name="firebase_nome">Nome: %s</string>
+    <string name="firebase_email">E-mail: %s</string>
+    <string name="firebase_status">Verified: %2$b</string>
+    <string name="firebase_endereco">Endereco: %s</string>
+    <string name="firebase_cidade">Cidade: %s</string>
+    <string name="firebase_estado">Estado: %s</string>
+    <string name="firebase_cep">Cep: %s</string>
+    <string name="firebase_localizacao">Localizacao: %s</string>
+    <string name="firebase_telefone">Telefone: %s</string>
+
+    <!-- activity_perfiledit. -->
+    <string name="perfil_uid">ID Perfil</string>
+    <string name="login_uid">ID Login</string>
+    <string name="perfil_nome">Nome</string>
+    <string name="perfil_email">E-mail</string>
+    <string name="perfil_senha">Senha</string>
+    <string name="perfil_status">Status</string>
+    <string name="text_perfil_button">PERFIL USUARIO</string>
+    <string name="NomeEdit">Nome</string>
+    <string name="EnderecoEdit">Endereco</string>
+    <string name="CidadeEdit">Cidade</string>
+    <string name="EstadoEdit">Estado</string>
+    <string name="CepEdit">Cep</string>
+    <string name="LocalizacaoEdit">Localizacao</string>
+    <string name="TelefoneEdit">Telefone</string>
+
+
+
+    <string name="facebook_application_id" translatable="false">363038774549998</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb363038774549998</string>
+
+
+
+</resources>

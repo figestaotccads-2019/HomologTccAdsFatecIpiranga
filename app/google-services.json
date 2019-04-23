@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "25106489632",
+    "firebase_url": "https://tcc-ads-fatec-ipiranga-2019.firebaseio.com",
+    "project_id": "tcc-ads-fatec-ipiranga-2019",
+    "storage_bucket": "tcc-ads-fatec-ipiranga-2019.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25106489632:android:31eb18ce6fec7e22",
+        "android_client_info": {
+          "package_name": "br.com.figestaotcc.homologtccadsfatecipiranga"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "25106489632-82d8hoh8jo5ktkt510k756g3g2jji578.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.figestaotcc.homologtccadsfatecipiranga",
+            "certificate_hash": "a85198a9bce8c2e4c69c6b062a3e656eea966701"
+          }
+        },
+        {
+          "client_id": "25106489632-om6ch3ntqa4q7qmjfrq3j3v203asdopn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkmI1sNwMPmN0YANDwPWlPptFkpVV2T9M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "25106489632-om6ch3ntqa4q7qmjfrq3j3v203asdopn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25106489632:android:58e847fb996e605f",
+        "android_client_info": {
+          "package_name": "com.figestaotcc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "25106489632-36rso6tuep226sg35e1655b83jdemch4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.figestaotcc",
+            "certificate_hash": "a85198a9bce8c2e4c69c6b062a3e656eea966701"
+          }
+        },
+        {
+          "client_id": "25106489632-om6ch3ntqa4q7qmjfrq3j3v203asdopn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkmI1sNwMPmN0YANDwPWlPptFkpVV2T9M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "25106489632-om6ch3ntqa4q7qmjfrq3j3v203asdopn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

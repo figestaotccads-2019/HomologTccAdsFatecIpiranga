@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_feed"
+        android:icon="@drawable/ic_feed"
+        android:title="@string/menu_feed"/>
+    <item
+        android:id="@+id/nav_login"
+        android:icon="@drawable/ic_login"
+        android:title="@string/menu_login"/>
+    <item
+        android:id="@+id/nav_perfil"
+        android:icon="@drawable/ic_account"
+        android:title="@string/menu_account"/>
+    <item
+        android:id="@+id/nav_categoria"
+        android:icon="@drawable/ic_categoria"
+        android:title="@string/menu_categoria"/>
+
+    <item
+        android:id="@+id/nav_produtos"
+        android:icon="@drawable/ic_produtos"
+        android:title="@string/menu_produtos"/>
+    <item
+        android:id="@+id/nav_estabelecimento"
+        android:icon="@drawable/ic_store"
+        android:title="@string/menu_estabelecimento"/>
+    <item
+        android:id="@+id/nav_novalistacompras"
+        android:icon="@drawable/ic_novalistacompras"
+        android:title="@string/menu_novalistacompras"/>
+    <item
+        android:id="@+id/nav_oferta"
+        android:icon="@drawable/ic_oferta"
+        android:title="@string/menu_oferta"/>
+
+    <item
+        android:id="@+id/nav_share"
+        android:icon="@drawable/ic_share"
+        android:title="@string/menu_share"/>
+
+    <item
+        android:id="@+id/nav_sobre"
+        android:icon="@drawable/ic_about"
+        android:title="@string/menu_sobre"/>
+
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/ic_sair"
+        android:title="@string/menu_logout"/>
+
+    <item
+        android:id="@+id/nav_close"
+        android:icon="@drawable/ic_close"
+        android:title="@string/closeApp"/>
+
+</menu>

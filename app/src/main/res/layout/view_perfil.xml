@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/card_view_padding_horizontal"
+    android:paddingTop="@dimen/card_view_padding_vertical"
+    android:paddingRight="@dimen/card_view_padding_horizontal"
+    android:paddingBottom="@dimen/card_view_padding_vertical">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ivPerfil"
+                android:layout_width="@dimen/card_view_image_size"
+                android:layout_height="@dimen/card_view_image_size"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/perfil_image"
+                tools:src="@mipmap/ic_launcher" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/card_view_textview_margin"
+                android:layout_toStartOf="@+id/btEditPerfil"
+                android:layout_toEndOf="@+id/ivPerfil"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvPerfilNome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/card_view_name_size"
+                    tools:text="@string/perfil_nome" />
+
+                <TextView
+                    android:id="@+id/tvPerfilEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/card_view_description_size"
+                    tools:text="@string/perfil_email" />
+
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/btEditPerfil"
+                android:layout_width="@dimen/card_view_image_size"
+                android:layout_height="@dimen/card_view_image_size"
+                android:layout_centerVertical="true"
+                android:layout_toStartOf="@+id/btDeletePerfil"
+                android:contentDescription="@string/edit_button"
+                android:src="@drawable/ic_edit" />
+
+            <ImageButton
+                android:id="@+id/btDeletePerfil"
+                android:layout_width="@dimen/card_view_image_size"
+                android:layout_height="@dimen/card_view_image_size"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/delete_button"
+                android:src="@drawable/ic_deletar" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

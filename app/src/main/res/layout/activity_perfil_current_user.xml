@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".view.menu.MenuActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tb_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:elevation="4dp"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_gravity="top"
+        android:theme="@style/AppTheme.AppBarOverlay" />
+
+    <LinearLayout
+            android:id="@+id/email_login_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingBottom="@dimen/activity_vertical_margin">
+
+            <ImageView
+                android:id="@+id/logo_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="0dp"
+                android:contentDescription="@string/TODO"
+                android:src="@drawable/logo" />
+
+
+        <TextView
+            android:id="@+id/nomePerfil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="@string/perfil_nome"
+            android:textSize="@dimen/title_size"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/emailPerfil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/perfil_email"
+            android:textSize="@dimen/subtitle_size"
+            android:textStyle="bold"/>
+
+        <TextView
+        android:id="@+id/uidPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/perfil_uid"
+        android:textSize="@dimen/introduction_size"/>
+
+        <TextView
+            android:id="@+id/uidLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/login_uid"
+            android:textSize="@dimen/introduction_size"/>
+
+
+    <TextView
+        android:id="@+id/statusPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/perfil_status"
+        android:textSize="@dimen/introduction_size"/>
+
+        <TextView
+            android:id="@+id/enderecoPerfil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/perfil_endereco"
+            android:textSize="@dimen/introduction_size"/>
+
+        <TextView
+            android:id="@+id/cidadePerfil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/perfil_cidade"
+            android:textSize="@dimen/introduction_size"/>
+
+        <TextView
+            android:id="@+id/estadoPerfil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/perfil_estado"
+            android:textSize="@dimen/introduction_size"/>
+
+        <TextView
+            android:id="@+id/cepPerfil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/perfil_cep"
+            android:textSize="@dimen/introduction_size"/>
+
+        <TextView
+            android:id="@+id/localizacaoPerfil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/perfil_localizacao"
+            android:textSize="@dimen/introduction_size"/>
+
+        <TextView
+            android:id="@+id/telefonePerfil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/perfil_telefone"
+            android:textSize="@dimen/introduction_size"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">8dp</dimen>
+    <dimen name="activity_vertical_margin">8dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+
+    <dimen name="fab_margin">4dp</dimen>
+
+    <dimen name="icon_top_margin">24dp</dimen>
+    <dimen name="icon_bottom_margin">24dp</dimen>
+    <dimen name="title_bottom_margin">16dp</dimen>
+    <dimen name="field_width_standard">160dp</dimen>
+
+    <dimen name="textview_padding">4dp</dimen>
+    <dimen name="elevation">0dp</dimen>
+    <dimen name="spenner_height">32dp</dimen>
+    <dimen name="spenner_width">185dp</dimen>
+    <dimen name="textviewlabel_height">20dp</dimen>
+    <dimen name="textviewstart_height">32dp</dimen>
+    <dimen name="textviewstart_width">185dp</dimen>
+    <dimen name="textviewend_height">32dp</dimen>
+    <dimen name="textviewend_width">185dp</dimen>
+
+    <dimen name="nav_header_height">170dp</dimen>
+    <dimen name="nav_header_horizontal_spacing">16dp</dimen>
+    <dimen name="nav_header_ivLogo">50dp</dimen>
+    <dimen name="nav_header">55dp</dimen>
+    <dimen name="nav_header_tvPadding">10dp</dimen>
+    <dimen name="nav_header_tvTextSize">24sp</dimen>
+
+    <dimen name="about_default_margin">16dp</dimen>
+    <dimen name="about_button_width">125dp</dimen>
+    <dimen name="about_app_title">30sp</dimen>
+    <dimen name="about_logo_size">80dp</dimen>
+
+    <dimen name="default_margin">4dp</dimen>
+
+
+    <dimen name="card_view_padding_horizontal">12dp</dimen>
+    <dimen name="card_view_padding_vertical">4dp</dimen>
+    <dimen name="card_view_image_size">48dp</dimen>
+    <dimen name="card_view_textview_margin">5dp</dimen>
+    <dimen name="card_view_name_size">16sp</dimen>
+    <dimen name="card_view_description_size">12sp</dimen>
+
+    <dimen name="title_size">30sp</dimen>
+    <dimen name="subtitle_size">17sp</dimen>
+    <dimen name="introduction_size">15sp</dimen>
+    <dimen name="button_horizontal_margin">15dp</dimen>
+    <dimen name="facebook_login_margin_vertical">30dp</dimen>
+    <dimen name="padding_size">16dp</dimen>
+
+    <dimen name="price_view_title_size">25sp</dimen>
+    <dimen name="view_price_text_size">18sp</dimen>
+    <dimen name="view_price_padding_vertical">6dp</dimen>
+    <dimen name="price_edit_tv_size">26sp</dimen>
+    <dimen name="price_imageview_margin">6dp</dimen>
+    <dimen name="price_frame_padding">10dp</dimen>
+    <dimen name="insert_edit_fields_margintop">8dp</dimen>
+    <dimen name="price_edit_paddingLeft">4dp</dimen>
+    <dimen name="home_margin">32dp</dimen>
+    <dimen name="login_button_width">125dp</dimen>
+    <dimen name="textsize_facebook_login">16sp</dimen>
+    <dimen name="padding_facebook_login">10dp</dimen>
+    <dimen name="padding_bottom_recyclerview">60dp</dimen>
+    <dimen name="price_logo_height">160dp</dimen>
+    <dimen name="price_frame_text_paddingLeft">16dp</dimen>
+    <dimen name="price_frame_text_padding_vertical">6dp</dimen>
+    <dimen name="home_text_size">48sp</dimen>
+    <dimen name="view_price_text_paddingRight">6dp</dimen>
+
+
+    <!--TextInputLayout bug fix-->
+    <item name="visible" type="id"/>
+    <item name="masked" type="id"/>
+
+</resources>

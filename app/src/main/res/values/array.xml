@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="categorias">
+        <item> </item>
+        <item>Lista de Compras</item>
+        <item>Oferta</item>
+        <item>Privacy</item>
+        <item>Produto</item>
+    </array>
+</resources>

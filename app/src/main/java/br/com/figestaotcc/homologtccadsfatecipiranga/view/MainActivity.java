@@ -59,7 +59,7 @@ public class MainActivity extends BaseActivity {
         mAuth = FirebaseAuth.getInstance();
         configuraFirebase ();
 
-        mToolbar = (Toolbar) findViewById( R.id.tb_main );
+        mToolbar = (Toolbar) findViewById( R.id.toolbar );
         setSupportActionBar( mToolbar );
 
         providers = Arrays.asList(

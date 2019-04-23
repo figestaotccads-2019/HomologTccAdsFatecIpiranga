@@ -5,10 +5,7 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
-import android.os.Parcelable;
 import android.text.TextUtils;
-import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.FrameLayout;
@@ -27,24 +24,19 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import br.com.figestaotcc.homologtccadsfatecipiranga.R;
 import br.com.figestaotcc.homologtccadsfatecipiranga.fragments.AboutFragment;
-import br.com.figestaotcc.homologtccadsfatecipiranga.fragments.Home2Fragment;
 import br.com.figestaotcc.homologtccadsfatecipiranga.fragments.HomeFragment;
-import br.com.figestaotcc.homologtccadsfatecipiranga.fragments.RegistrarFragment;
 import br.com.figestaotcc.homologtccadsfatecipiranga.model.Login;
 import br.com.figestaotcc.homologtccadsfatecipiranga.model.Perfil;
 import br.com.figestaotcc.homologtccadsfatecipiranga.view.BaseActivity;
 import br.com.figestaotcc.homologtccadsfatecipiranga.view.MainActivity;
 import br.com.figestaotcc.homologtccadsfatecipiranga.view.MapsActivity;
 import br.com.figestaotcc.homologtccadsfatecipiranga.view.login.LoginActivity;
-import br.com.figestaotcc.homologtccadsfatecipiranga.view.perfil.PerfilActivity;
 import br.com.figestaotcc.homologtccadsfatecipiranga.view.perfil.PerfilUserActivity;
 
 import com.firebase.ui.auth.AuthUI;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationView;
-import com.google.android.material.snackbar.Snackbar;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
@@ -53,7 +45,6 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-import java.io.Serializable;
 import java.util.List;
 import java.util.UUID;
 
@@ -72,8 +63,6 @@ public class MenuActivity extends BaseActivity implements NavigationView.OnNavig
 
     private NavigationView navigationView;
     private DrawerLayout drawerLayout;
-    private DrawerLayout drawerLayout2;
-    private NavigationView navigationView2;
     private RecyclerView postList;
 
     private void configuraFirebase (){

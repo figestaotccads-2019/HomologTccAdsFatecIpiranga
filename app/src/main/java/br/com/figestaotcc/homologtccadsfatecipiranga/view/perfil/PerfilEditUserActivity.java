@@ -168,16 +168,6 @@ public class PerfilEditUserActivity extends BaseActivity {
     }
 
 
- public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.menu_perfiledit, menu);
-        for (int i = 0; i < menu.size(); i++) {
-            menu.getItem(i).setShowAsAction(MenuItem.SHOW_AS_ACTION_IF_ROOM);
-        }
-        return super.onCreateOptionsMenu(menu);
-    }
-
-
     private void updateUI(FirebaseUser user) {
         hideProgressDialog();
     }

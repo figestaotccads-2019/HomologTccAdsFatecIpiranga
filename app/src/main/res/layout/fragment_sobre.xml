@@ -6,18 +6,6 @@
     android:layout_height="match_parent"
     android:label="@string/menu_sobre">
 
-
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/tb_main"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="top"
-        android:background="@color/colorPrimary"
-        android:elevation="4dp"
-        android:minHeight="?attr/actionBarSize"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
-
-
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -27,7 +15,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/nav_header"
+            android:layout_marginTop="8dp"
             android:orientation="vertical">
 
             <LinearLayout
@@ -111,7 +99,7 @@
                 style="@style/Widget.AppCompat.Button.Colored"
                 android:layout_width="@dimen/about_button_width"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="72dp"
+                android:layout_marginTop="36dp"
                 android:layout_marginStart="250dp"
                 android:onClick="voltarFeed"
                 android:text="@string/voltar" />

@@ -216,26 +216,17 @@ public class MenuActivity extends BaseActivity implements NavigationView.OnNavig
                     drawerLayout.closeDrawer(GravityCompat.START);
                 }
                 break;
-
-
-            case R.id.nav_login:
+            case R.id.nav_login: {
                 intent = new Intent(this, LoginActivity.class);
                 this.startActivity(intent);
                 break;
-
-            case R.id.nav_perfil:
+            }
+            case R.id.nav_perfil: {
                 intent = new Intent(this, PerfilUserActivity.class);
                 intent.putExtra("login", login);
                 this.startActivity(intent);
-
                 break;
-
-                /*case R.id.nav_registrar:
-                criarMenu2();
-                fragment = new RegistrarFragment();
-                changeFragment(fragment);
-                break;*/
-
+            }
             case R.id.nav_categoria:{
                 Toast.makeText(this,"Categoria",Toast.LENGTH_SHORT).show();
                 break;
